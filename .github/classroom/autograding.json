@@ -19,6 +19,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 4
+    },
+    {
+      "name": "Review3Test",
+      "setup": "",
+      "run": "javac -d bin src/gr11review/part1/Review3.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review3Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review3Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
     }
   ]
 }
