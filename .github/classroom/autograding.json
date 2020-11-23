@@ -31,9 +31,9 @@
       "points": 4
     },
     {
-      "name": "Review2Test -cmd",
+      "name": "Review4Test",
       "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review2.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review2Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review2Test",
+      "run": "javac -d bin src/gr11review/part1/Review4.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review4Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review4Test",
       "input": "",
       "output": "",
       "comparison": "included",
