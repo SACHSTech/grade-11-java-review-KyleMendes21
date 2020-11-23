@@ -1,26 +1,6 @@
 {
   "tests": [
     {
-      "name": "Review1Test",
-      "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review1.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review1Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review1Test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4
-    },
-    {
-      "name": "Review2Test",
-      "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review2.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review2Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review2Test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4
-    },
-    {
       "name": "Review3Test",
       "setup": "",
       "run": "javac -d bin src/gr11review/part1/Review3.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review3Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review3Test",
@@ -28,57 +8,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 4
-    },
-    {
-      "name": "Review4Test",
-      "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review4.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review4Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review4Test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4
-    },
-    {
-      "name": "Review5Test",
-      "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review5.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review5Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review5Test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4
-    },
-    {
-      "name": "Review6Test",
-      "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review6.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review6Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review6Test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4
-    },
-    {
-      "name": "Review7Test",
-      "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review7.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review7Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review7Test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4
-    },
-    {
-      "name": "Review8Test",
-      "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review8.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review8Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review8Test",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4
+      "points": 2
     }
   ]
 }
