@@ -1,10 +1,10 @@
 package gr11review.part1;
 import java.io.*;
-// javac -d bin src/gr11review/part1/Review1.java
-// java -classpath bin gr11review/part1.Review1
+// javac -d bin src/gr11review/part1/Review3.java
+// java -classpath bin gr11review/part1.Review3
 public class Review3{
 
-  public static void main(String[] args) throws IOException {
+  public static void main(String[] args) throws Exception {
     
     // Variables
     int intCount;
