@@ -2,15 +2,23 @@ package gr11review.part1;
 import java.io.*;
 // javac -d bin src/gr11review/part1/Review2.java
 // java -classpath bin gr11review/part1.Review2
+
+/**
+* A program that outputs a joke based on users choice
+@author: K. Mendes
+*
+*/
 public class Review2 {
 
   public static void main(String[] args) throws Exception {
 
+    // Create BufferedReader
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
     
+    // Initialize Variables
     int intChoice;
 
-    // Options avaible
+    // Print options avaible and get option
     System.out.println("0 - print an joke about your hair");
     System.out.println("1 - print an joke about your feet");
     System.out.println("2 - print an joke about your clothes");
@@ -18,34 +26,35 @@ public class Review2 {
     System.out.println("Choose a menu option:");
     intChoice = Integer.parseInt(keyboard.readLine());
 
-    // if statement with switch
+    // Determine whether the option is valid
     if (intChoice == 0 || intChoice == 1 || intChoice == 2 || intChoice == 3) {
       System.out.println("Choose a menu option:");
 
       switch (intChoice) {
-        case 0:
-          System.out.println("ADD JOKE Hair");
-          System.out.println("ADD Answer");
+
+        // Creating cases with jokes and printing jokes
+        case 0 :
+          System.out.println("Where did the sheep get a hair cut?");
+          System.out.println("At the baa-baa shop");
           break;
-        case 1:
-          System.out.println("ADD JOKE Feet");
-          System.out.println("ADD Answer");
+        case 1 :
+          System.out.println("Why do cows have hooves instead of feet?");
+          System.out.println("Because they lactose");
           break;
-        case 2:
-          System.out.println("ADD JOKE Clothes");
-          System.out.println("ADD Answer");
+        case 2 :
+          System.out.println("I bought camoflauge clothing");
+          System.out.println("No one seemed to notice");
           break;
-        case 3:
-          System.out.println("ADD JOKE Teacher");
-          System.out.println("ADD Answer");
+        case 3 :
+          System.out.println("How is an english teacher like a judge?");
+          System.out.println("They both give out sentences");
           break;
       }
 
-    } else {
+    }else {
       System.out.println("Invalid menu option");
     }
     
-
   }
 
 }
