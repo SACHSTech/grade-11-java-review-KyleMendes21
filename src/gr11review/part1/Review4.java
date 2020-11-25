@@ -4,6 +4,14 @@ import java.text.DecimalFormat;
 
 // javac -d bin src/gr11review/part1/Review4.java
 // java -classpath bin gr11review/part1.Review4
+
+ 
+/**
+* A program that gets item prices one by one and then calculates total,tax and subtotal
+@author: K. Mendes
+*
+*/
+
 public class Review4 {
 
   public static void main(String[] args) throws Exception {
