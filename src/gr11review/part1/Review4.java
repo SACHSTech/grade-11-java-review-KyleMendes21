@@ -8,11 +8,13 @@ public class Review4 {
 
   public static void main(String[] args) throws Exception {
 
+    // Adding decimal format
     DecimalFormat twoDecimalPlaces = new DecimalFormat ("0.00");
 
+    // Add BufferedReader to get input
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
-    // Variables
+    // Initialize variables
     int intItems;
     int intCount;
     double dblItem;
@@ -23,12 +25,12 @@ public class Review4 {
     String strSubtotal;
     String strTax;
 
-    // Get Info
+    // Get how many items user wants to buy
 		System.out.println("How many items do you want to buy?");
 		intItems = Integer.parseInt(keyboard.readLine());
 
-    // Get Prices
-    for (intCount = 0; intCount < intItems; intCount++){
+    // Get price for items
+    for (intCount = 0; intCount < intItems; intCount++) {
       System.out.println("Enter the price for item "+(intCount + 1)+":");
       dblItem = Double.parseDouble(keyboard.readLine());
       dblTotal = dblTotal + dblItem;
@@ -39,7 +41,7 @@ public class Review4 {
     strTax = twoDecimalPlaces.format(dblTotal * 0.13);
     strTotal = twoDecimalPlaces.format(dblTotal * 1.13);
 
-    // Output Info
+    // Print calculations
     System.out.println("Subtotal: $"+strSubtotal);
     System.out.println("Tax: $"+strTax);
     System.out.println("Total: $"+strTotal);
