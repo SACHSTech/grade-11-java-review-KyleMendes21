@@ -12,4 +12,4 @@ public class Review5 {
 
     // Variables
     String strtheSentence;
-    String str
+    int intNumber;
