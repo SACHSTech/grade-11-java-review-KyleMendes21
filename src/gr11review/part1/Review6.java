@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
 */
 public class Review6 {
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) throws IOException {
 
     // Adding decimal format
     DecimalFormat twoDecimalPlaces = new DecimalFormat ("0.00");

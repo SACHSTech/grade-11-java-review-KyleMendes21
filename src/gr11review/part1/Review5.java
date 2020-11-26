@@ -8,7 +8,7 @@ import java.io.*;
 */
 public class Review5 {
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) throws IOException {
 
     // Add BufferedReader to get input
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));

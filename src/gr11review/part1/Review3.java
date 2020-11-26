@@ -8,7 +8,7 @@ import java.io.*;
 */
 public class Review3 {
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) throws IOException {
     
     // Initialize variables
     int intCount;
