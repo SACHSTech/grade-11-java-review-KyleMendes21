@@ -46,7 +46,7 @@ public class Review7 {
     // Printing results
     System.out.println("There are " + intLength + " characters in the sentence");
     System.out.println("There are " + intSpaces + " spaces in the sentence");
-    System.out.println("There are " + intA + " letter a's in the sentence");
+    System.out.println("There are " + intA + " letter a in the sentence");
     System.out.println("Taking the odd numbered characters in the sentence produces the following string (" + strOdd + ")");
 
   }
