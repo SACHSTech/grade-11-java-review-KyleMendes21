@@ -1,7 +1,5 @@
 package gr11review.part1;
 import java.io.*;
-// javac -d bin src/gr11review/part1/Review1.java
-// java -classpath bin gr11review/part1.Review1
 
 /**
 * A program that outputs the day of the year given the month and day 

@@ -1,9 +1,6 @@
 package gr11review.part1;
 import java.io.*;
 
-// javac -d bin src/gr11review/part1/Review5.java
-// java -classpath bin gr11review/part1.Review5
-
 /**
 * A program that outputs and calculates the number of years for money to compound to goal amount
 @author: K. Mendes
@@ -43,7 +40,7 @@ public class Review5 {
     }
 
     // Print info
-    System.out.println("The target amount will be earned in "+intYears+" years.");
+    System.out.println("The target amount will be earned in " + intYears + " years.");
 
   }
 

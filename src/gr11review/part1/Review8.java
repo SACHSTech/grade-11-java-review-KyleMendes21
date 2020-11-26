@@ -1,8 +1,6 @@
 package gr11review.part1;
 import java.io.*;
-// javac -d bin src/gr11review/part1/Review8.java
-// java -classpath bin gr11review/part1.Review8
- 
+
 /**
 * A program that outputs 1000 pull slots and how many triples occur
 @author: K. Mendes
@@ -20,11 +18,12 @@ public class Review8 {
     int intTotal = 0;
 
     // Creating and printing random numbers and counting how many triples
-    for (intCount = 1; intCount < 1001; intCount++) {
-      intRandom1 = (int)(Math.random()*5+0);
-      intRandom2 = (int)(Math.random()*5+0);
-      intRandom3 = (int)(Math.random()*5+0);
-      System.out.println(intRandom1+" "+intRandom2+" "+intRandom3);
+    for (intCount = 0; intCount < 1000; intCount++) {
+      intRandom1 = (int)(Math.random() * 9 + 0);
+      intRandom2 = (int)(Math.random() * 9 + 0);
+      intRandom3 = (int)(Math.random() * 9 + 0);
+      System.out.println(intRandom1 + " " + intRandom2 + " " + intRandom3);
+      // count how many triples
       if (intRandom1 == intRandom2 && intRandom1 == intRandom3) {
         intTotal = intTotal + 1;
       }

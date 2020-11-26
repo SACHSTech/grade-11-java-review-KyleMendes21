@@ -1,9 +1,6 @@
 package gr11review.part1;
 import java.io.*;
 
-// javac -d bin src/gr11review/part1/Review7.java
-// java -classpath bin gr11review/part1.Review7
- 
 /**
 * A program that outputs the number of characters, spaces, a's and odd letters from the sentence the user inputs
 @author: K. Mendes
@@ -41,16 +38,16 @@ public class Review7 {
 
       // Grabbing all the odd letters
       }if (intCount % 2 == 0) {
-        strOdd = strOdd + (theSentence.charAt(intCount)) + "-";
+        strOdd = strOdd + (theSentence.charAt(intCount));
       }
 
     }
 
     // Printing results
-    System.out.println("There are "+intLength+ " characters in the sentence");
-    System.out.println("There are "+intSpaces+ " spaces in the sentence");
-    System.out.println("There are "+intA+" letter a's in the sentence");
-    System.out.println("Taking the odd numbered characters in the sentence produces the following string "+strOdd);
+    System.out.println("There are " + intLength + " characters in the sentence");
+    System.out.println("There are " + intSpaces + " spaces in the sentence");
+    System.out.println("There are " + intA + " letter a's in the sentence");
+    System.out.println("Taking the odd numbered characters in the sentence produces the following string (" + strOdd + ")");
 
   }
   

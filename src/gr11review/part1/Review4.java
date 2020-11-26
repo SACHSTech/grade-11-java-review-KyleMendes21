@@ -2,10 +2,6 @@ package gr11review.part1;
 import java.io.*;
 import java.text.DecimalFormat;
 
-// javac -d bin src/gr11review/part1/Review4.java
-// java -classpath bin gr11review/part1.Review4
-
- 
 /**
 * A program that gets item prices one by one and then calculates total,tax and subtotal
 @author: K. Mendes
@@ -27,8 +23,6 @@ public class Review4 {
     int intCount;
     double dblItem;
     double dblTotal = 0.0;
-    double dblSubtotal;
-    double dblTax;
     String strTotal;
     String strSubtotal;
     String strTax;
@@ -39,7 +33,7 @@ public class Review4 {
 
     // Get price for items
     for (intCount = 0; intCount < intItems; intCount++) {
-      System.out.println("Enter the price for item "+(intCount + 1)+":");
+      System.out.println("Enter the price for item " + (intCount + 1) + ":");
       dblItem = Double.parseDouble(keyboard.readLine());
       dblTotal = dblTotal + dblItem;
     }
@@ -50,9 +44,9 @@ public class Review4 {
     strTotal = twoDecimalPlaces.format(dblTotal * 1.13);
 
     // Print calculations
-    System.out.println("Subtotal: $"+strSubtotal);
-    System.out.println("Tax: $"+strTax);
-    System.out.println("Total: $"+strTotal);
+    System.out.println("Subtotal: $" + strSubtotal);
+    System.out.println("Tax: $" + strTax);
+    System.out.println("Total: $" + strTotal);
 
   }
 

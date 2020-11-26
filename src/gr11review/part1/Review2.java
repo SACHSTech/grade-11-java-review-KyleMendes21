@@ -1,7 +1,5 @@
 package gr11review.part1;
 import java.io.*;
-// javac -d bin src/gr11review/part1/Review2.java
-// java -classpath bin gr11review/part1.Review2
 
 /**
 * A program that outputs a joke based on users choice
