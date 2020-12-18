@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "Review3Test",
-      "setup": "",
-      "run": "javac -d bin src/gr11review/part1/Review3.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test1/Review3Test.java;java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar -cp bin -c gr11review.test1.Review3Test",
+      "name": "Review1",
+      "setup": "javac -d bin src/gr11review/part1/Review1.java; javac -d bin -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/gr11review/test/Review1Test.java",
+      "run": "java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c gr11review.test1.Review1Test",
       "input": "",
       "output": "",
       "comparison": "included",
