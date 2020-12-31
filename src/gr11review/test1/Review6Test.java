@@ -36,7 +36,7 @@ public class Review6Test {
 
         // Set the output stream expected value
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        String expectedOutput = "Enter the price for an item: " + "Subtotal: $0.00" + sep
+        String expectedOutput = "Enter the price for item 1: " + "Subtotal: $0.00" + sep
         + "Tax: $0.00" + sep
         + "Total: $0.00" + sep;
 
@@ -91,8 +91,8 @@ public class Review6Test {
 
         // Set the output stream expected value
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        String expectedOutput = "Enter the price for an item: " + "Enter the price for an item: "
-        + "Enter the price for an item: " + "Enter the price for an item: ";
+        String expectedOutput = "Enter the price for item 1: " + "Enter the price for item 2: "
+        + "Enter the price for item 3: " + "Enter the price for item 4: ";
 
         expectedOutput += "Subtotal: $5.97" + sep
         + "Tax: $0.78" + sep
@@ -119,7 +119,7 @@ public class Review6Test {
 
         // Set the output stream expected value
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        String expectedOutput = "Enter the price for an item: " + "Enter the price for an item: " + "Enter the price for an item: " ;
+        String expectedOutput = "Enter the price for item 1: " + "Enter the price for item 2: " + "Enter the price for item 3: " ;
 
 
         expectedOutput += "Subtotal: $7.00" + sep
